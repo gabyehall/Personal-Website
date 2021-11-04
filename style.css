@@ -1,0 +1,115 @@
+/* GENERAL STYLING */
+body {
+  background-color: #1e1f20;
+  color: white;
+}
+
+/* images: */ 
+img{
+  width: 100%;
+}
+/* Nav Bar Code: */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1e1f20;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #333;
+}
+.active {
+  background-color: #cc9876;
+}
+/*footer stuff*/
+footer {
+  text-align: center;
+  padding: 0px;
+  background-color: #1e1f20;
+  color: white;
+}
+/*link colors */
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+a:active {
+  color: white;
+  text-decoration: underline;
+}
+
+
+/*INDIVIDUAL PAGES */
+
+
+/* resume padding */
+div1 {
+  padding-top: 50px;
+  padding-right: 70px;
+  padding-bottom: 50px;
+  padding-left: 70px;
+  width: 100%
+}
+
+/*portfolio page*/
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #cc9876;
+  background-color: #f0e0d6;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: ##a37a5e;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #cc9876;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid ##b8896a;
+  border-top: none;
+  background-color: #f5eae4;
+  color: #3d2e23;
+}
