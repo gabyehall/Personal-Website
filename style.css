@@ -2,6 +2,7 @@
 body {
   background-color: #1e1f20;
   color: white;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* images: */ 
@@ -20,9 +21,11 @@ ul {
   top: 0;
 }
 li {
+  font-family: 'Times New Roman', Times, serif;
   float: left;
 }
 li a {
+  font-family: 'Times New Roman', Times, serif;
   display: block;
   color: white;
   text-align: center;
@@ -30,9 +33,11 @@ li a {
   text-decoration: none;
 }
 li a:hover:not(.active) {
+  font-family: 'Times New Roman', Times, serif;
   background-color: #333;
 }
 .active {
+  font-family: 'Times New Roman', Times, serif;
   background-color: #cc9876;
 }
 /*footer stuff*/
@@ -44,18 +49,22 @@ footer {
 }
 /*link colors */
 a:link {
+  font-family: 'Times New Roman', Times, serif;
   color: white;
   text-decoration: none;
 }
 a:visited {
+  font-family: 'Times New Roman', Times, serif;
   color: white;
   text-decoration: none;
 }
 a:hover {
+  font-family: 'Times New Roman', Times, serif;
   color: white;
   text-decoration: underline;
 }
 a:active {
+  font-family: 'Times New Roman', Times, serif;
   color: white;
   text-decoration: underline;
 }
@@ -96,7 +105,7 @@ div1 {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: ##a37a5e;
+  background-color: #EAC4AA;
 }
 
 /* Create an active/current tablink class */
@@ -108,8 +117,48 @@ div1 {
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid ##b8896a;
+  border: 1px solid #b8896a;
   border-top: none;
   background-color: #f5eae4;
   color: #3d2e23;
+}
+
+/*web link buttons */
+}
+.button {
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #1e1f20; 
+  color: black; 
+  border: 2px solid #1e1f20;
+}
+
+.button1:hover {
+  background-color: #A3A4A5;
+  color: black;
+}
+
+.button2 {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #1e1f20; 
+  color: white; 
+  border: 2px solid #b8896a;
+}
+
+.button2:hover {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #b8896a;
+  color: white;
 }
